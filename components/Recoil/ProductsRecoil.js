@@ -75,3 +75,8 @@ export const productsState = atom({
         },
     ],
 })
+
+export const viewState = atom({
+    key: "viewState",
+    default: "column",
+})

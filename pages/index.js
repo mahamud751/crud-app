@@ -1,7 +1,7 @@
 import Head from "next/head"
-import { RecoilRoot } from "recoil"
 import Nav from "../components/Nav"
 import Products from "../components/Products/Products"
+import Sidebar from "../components/Sidebar/Sidebar"
 
 
 
@@ -19,9 +19,11 @@ function index() {
 
       </Head>
       <Nav></Nav>
-      <RecoilRoot>
-        <Products></Products>
-      </RecoilRoot>
+
+      <Products></Products>
+
+
+      <Sidebar></Sidebar>
 
     </>
 
