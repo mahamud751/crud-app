@@ -30,7 +30,7 @@ const Nav = () => {
                             textDecoration: "none"
                         }}>Items</a></Link></Button>
 
-                        <Button className="bg-danger text-white px-5 mx-2"><Link href="/addProduct"><a className="text-white" style={{
+                        <Button className="bg-danger text-white px-5 mx-2"><Link href="/AddProduct"><a className="text-white" style={{
                             textDecoration: "none"
                         }}>Add Product</a></Link></Button>
 

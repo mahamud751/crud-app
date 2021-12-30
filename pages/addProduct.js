@@ -7,8 +7,7 @@ import axios from "axios";
 import Nav from "../components/Nav";
 
 
-const addProduct = () => {
-    // const navigate = useNavigate();
+const AddProduct = () => {
     const { register, handleSubmit, reset } = useForm()
     const setProducts = useSetRecoilState(productsState)
     const [success, setSuccess] = useState(false);
@@ -73,4 +72,4 @@ const addProduct = () => {
     )
 }
 
-export default addProduct
+export default AddProduct

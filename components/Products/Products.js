@@ -3,7 +3,6 @@ import { useRecoilValue } from 'recoil'
 import { productsState } from '../Recoil/ProductsRecoil'
 import { Container, Grid } from '@mui/material';
 import Product from '../Product/Product';
-import Link from 'next/link';
 
 
 const Products = () => {

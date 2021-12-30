@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React, { useState } from "react";
 import shortid from "shortid";
 
@@ -10,8 +9,7 @@ import { productsState } from "../Recoil/ProductsRecoil";
 
 
 const AddProducts = (props) => {
-    // const navigate = useNavigate()
-    // const [id, setId] = useState("");
+
     const [name, setName] = useState("");
     const [price, setPrice] = useState("");
     const [picture, setPicture] = useState("");
